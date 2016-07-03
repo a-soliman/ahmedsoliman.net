@@ -1,5 +1,4 @@
 * {
-	font-family: arial;
 	padding: 0;
 	margin: 0;
 }
@@ -27,4 +26,135 @@
 }
 .intro img {
 	width: 76%;
+}
+/*====================================================================================*/
+/*====================================================================================*/
+/*ABOUT ME SECTION*/
+.about-wrapper {
+	padding-top: 60px;
+}
+.about-wrapper .container {
+	border-top: 4px solid red;
+    border-right: 4px solid red;
+    border-radius: 26px;
+    padding: 50px 10px;
+}
+.about {
+	text-align: center;
+}
+.about h1 {
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 2.5em;
+	margin-bottom: 120px;
+}
+.aboutImage {
+
+}
+.aboutImage img {
+	margin: 0 auto;
+	border-bottom: 3px solid red;
+    border-left: 3px solid red;
+    border-radius: 26px;
+}
+.aboutContent {
+	text-align: left;
+}
+.aboutContentHeader {
+	font-family: monospace, "Lucida Console", sans-serif;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	margin-right: 60px;
+	font-size: 1.7em;
+}
+.about .red {
+	color: red;
+	margin-bottom: 0;
+}
+.aboutDetails {
+}
+.aboutDetails .bold {
+	font-size: 1.3em;
+	font-weight: bold;
+	    min-width: 130px;
+}
+.aboutDetails p {
+	font-family: Tahoma, Geneva, sans-serif;
+	display: inline;
+	font-size: 1.2em;
+}
+.aboutDetails ul {
+	list-style-type: none;
+}
+.aboutDetails ul li {
+	color: #919191;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.4em;
+	border-bottom: 1px solid grey;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.aboutDetails ul li span {
+	color: #7d7c7c;
+	font-weight: 600;
+	display: inline-block;
+	min-width: 140px;
+}
+
+/*====================================================================================*/
+/*====================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*====================================================================================*/
+/*====================================================================================*/
+/*Media Queries*/
+
+@media (max-width: 1100px) {
+	.aboutContentHeader {
+		text-align: center;
+		margin-right: 0;
+
+	}
+}
+@media (max-width: 600px) {
+	.aboutDetails ul li {
+		font-size: 1em;
+	}
+	.aboutDetails ul li span {
+		min-width: 94px;
+	}
 }
