@@ -169,8 +169,22 @@
     border-radius: 20px;
     padding: 10px;
 }
+.ninety {
+	max-width:  90%;
+}
+.eighty {
+	max-width: 80%;
+}
+.seventy {
+	max-width: 70%;
+}
+.sixty {
+	max-width: 60%;
+}
 
-
+.fifty {
+	max-width: 50%;
+}
 
 
 
