@@ -104,8 +104,71 @@
 /*====================================================================================*/
 /*====================================================================================*/
 
+/*Skills SECTION*/
 
+.skills {
+	margin-top: 100px;
+	padding: 0;
+	background-color: #9f0002;
+	padding-top: 50px;
+    padding-bottom: 80px;
+}
+.skills .container {
+	border-top: 4px solid white;
+    border-right: 4px solid white;
+    border-radius: 26px;
+    padding: 50px 10px;
+}
+.skills h1 {
+	color: white;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 2em;
+	margin-bottom: 120px;
+	text-align: center;
+}
+.skills h1 span {
+	font-size: 1.2em;
+	background-color: white;
+    color: #fd0508;
+    border-radius: 10px;
+    min-width: 120px;
+    display: inline-block;
+    padding: 3px 0;
+    box-shadow: 10px 10px 5px #690102;
+}
+.skills-content {
+	padding: 20px 5px 20px 20px;
+}
+.one {
+	border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    border-radius: 26px;
+    
+}
+.skills-content ul {
+	list-style-type: none;
+	margin-bottom: 0;
+}
+.skills-content ul li {
+	color: #919191;
+	background-color: #910406;
+	border-radius: 20px;
 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.4em;
+
+	margin-bottom: 20px; 
+}
+.skills-content ul li span {
+	font-family: cursive;
+	font-weight: 400;
+	display: inline-block;	
+}
+.skills .prsentation {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
 
 
 
@@ -148,6 +211,22 @@
 		text-align: center;
 		margin-right: 0;
 
+	}
+}
+@media (max-width: 770px) {
+	.skills .container {
+		margin: 10px;
+	}
+	.skills-content {
+		padding: 0px 5px 0px 20px;
+	}
+	.skills .one {
+		border: none;
+	}
+	.skills .two {
+		border-bottom: 3px solid white;
+    	border-left: 3px solid white;
+    	border-radius: 26px;
 	}
 }
 @media (max-width: 600px) {
