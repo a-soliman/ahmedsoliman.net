@@ -88,7 +88,7 @@
 .aboutDetails ul li {
 	color: #919191;
 	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 1.4em;
+	font-size: 1.1em;
 	border-bottom: 1px solid grey;
 	margin-bottom: 5px;
 	padding-top: 5px;
@@ -186,13 +186,140 @@
 	max-width: 50%;
 }
 
+/*====================================================================================*/
+/*====================================================================================*/
 
+/*PORTFOLIO SECTION*/
+.contact {
+	padding: 60px 0;
+}
+.wrapper {
 
+}
+.contact h1 {
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 2.5em;
+	margin-bottom: 20px;
+}
+.contact h1 span {
+	color: red;
+}
+.contact p {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.contact-image {
+	background-image: url(../img/person.png);
+	background-size: cover !important;
+    background-color: #242832;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 600px;
+    position: relative;
+}
+.overlay {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.4);
+}
+.contact-info {
+	color: #ffffff;
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    width: 70%;
+    /*content: '';*/
+    text-align: center;
+}
+.item {
 
+}
+.item:nth-of-type(1), .item:nth-of-type(2) {
+	margin-bottom: 60px;
+}
+.item i {
+	font-size: 28px;
+    margin-bottom: 15px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    border: 1px solid #bebebe;
+    color: #dedede;
+    display: inline-block;
+}
+.item p {
+	font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.item a {
+	color: white;
+}
+.contact-body {
+	padding: 30px 50px;
+}
+.contact-body h2 {
+	font-family: cursive, fantasy, sans-serif;
+	color: #ca0508;
+	text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+.contact form {
 
+}
+.contact input, .contact textarea {
+	width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ededed;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.contact textarea {
+	height: 166px;
+}
+.contact button {
+	display: inline-block;
+    color: #333333;
+    text-decoration: none !important;
+    padding: 15px 20px;
+    border: 1px solid #999999;
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    transition: all 300ms linear;
+    background: transparent;
+    margin-bottom: 30px;
+}
 
-
-
+.contact button:hover {
+	background-color: #bf0202;
+    color: white;
+    border: 1px solid #9f0002;
+}
+.contact input:hover, .contact textarea:hover {
+	border: 1px solid black;
+}
+.social a {
+	font-size: 3em;
+    margin: 0 10px;
+    color: rgba(159, 0, 2, 0.26);
+}
+.social a:hover {
+	color: #9f0002;
+}
 
 
 
@@ -241,6 +368,18 @@
 		border-bottom: 3px solid white;
     	border-left: 3px solid white;
     	border-radius: 26px;
+	}
+	.contact-info {
+    	top: 3%;
+	}
+	.item:nth-of-type(1), .item:nth-of-type(2) {
+		margin-bottom: 0;
+	}
+	.contact-info .item {
+		margin-bottom: 25px;
+	}
+	.contact-body {
+		padding: 30px 30px;
 	}
 }
 @media (max-width: 600px) {
