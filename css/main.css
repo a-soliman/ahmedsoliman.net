@@ -2,31 +2,91 @@
 	padding: 0;
 	margin: 0;
 }
+
+/*Intro SECTION*/
+
 .intro {
-	text-align: center;
 }
-
-.text {
-	margin-top: 8em;
-}
-.intro .text h1 {
-	font-size: 6em;
-    font-weight: 900;
+.intro .jumbotron {
+	background-image: url(../img/stars.jpg);
+	background-size: cover;
+    min-height: 932px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
     margin-bottom: 0;
+    border-radius: 0;
 }
-.intro .text p {
-	font-size: 2.5em;
+.intro .text-center {
+	margin-top: 350px;
+	font-family: monospace, fantasy, sans-serif;
 
 }
-.intro .buttons {
-	margin-top: 4em;
+.intro .jumbotron h1 {
+	font-size: 7em;
+ 	font-weight: 400;
+ 	font-family: 'Yesteryear', cursive, monospace, fantasy, sans-serif;
+}	
+.intro .jumbotron p {
+	font-size: 2.7em;
 }
-.intro button:nth-child(2) {
-	margin-left: 1em;
+.intro .icon-center {
+	margin-top: 50px;
 }
-.intro img {
-	width: 76%;
+.intro .icon-center a {
+    font-size: 5em;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
 }
+.intro .icon-center a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/*====================================================================================*/
+/*====================================================================================*/
+/*NAV BAR*/
+.navbar-static  {
+	border-radius: 0;
+	background-color: #910406;
+	min-height: 55px;
+}
+.fixed-navbar {
+	border-radius: 0;
+	background-color: rgba(113, 5, 6, 0.9);
+	min-height: 55px;
+	position: fixed;
+	top: 0;
+	z-index: 20;
+	width: 100%;
+}
+.navbar-static ul {
+	float: right;
+}
+.nav li a {
+	color: white;
+	padding: 12px 40px;
+	font-size: 16px;
+	margin: 3px 5px;
+}
+.nav li a:hover {
+	color: white;
+	background-color: #7b0f10;
+	border-bottom: 3px solid white;
+	border-radius: 12px;
+}
+.active-nav {
+    color: wheat;
+    background-color: #6f0305;
+    border-bottom: 3px solid wheat;
+    border-radius: 12px;
+}
+.nav li a:focus {
+	background-color: #910406;
+    border: 1px solid white;
+}
+
+
 /*====================================================================================*/
 /*====================================================================================*/
 /*ABOUT ME SECTION*/
@@ -38,6 +98,7 @@
     border-right: 4px solid red;
     border-radius: 26px;
     padding: 50px 10px;
+    background-color: rgba(250, 235, 215, 0.44);
 }
 .about {
 	text-align: center;
@@ -55,6 +116,7 @@
 	border-bottom: 3px solid red;
     border-left: 3px solid red;
     border-radius: 26px;
+    background-color: rgb(234, 224, 212);
 }
 .aboutContent {
 	text-align: left;
@@ -388,5 +450,21 @@
 	}
 	.aboutDetails ul li span {
 		min-width: 94px;
+	}
+}
+
+
+
+
+
+@media (max-width: 767px) {
+	.navbar ul {
+		float: none;
+	}
+	.navbar li {
+		border-bottom: 1px solid white;
+	    display: inline-block;
+	    width: 100%;
+	    text-align: center;
 	}
 }
