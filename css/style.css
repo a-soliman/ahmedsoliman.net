@@ -46,14 +46,18 @@ body { background: #0f0f0f; /*overflow-y: hidden;*/ }
 
 .section-title:after {
   background: none repeat scroll 0 0 #fff;
-  bottom: -15px;
+  /*bottom: -15px;*/
+  /*left: 45%;*/
   color: #333;
   content: "\f0a7";
-  left: 45%;
   line-height: 1px;
   padding: 15px 5px;
   position: absolute;
   font-family: "FontAwesome";
+
+  /*Solving the icon falling*/
+  display: block;
+  left: 47%;
 }
 
 /* ------------------------------------------------------------------ */
