@@ -1,0 +1,515 @@
+* {
+	font-family: 			'Lato', sans-serif;
+}
+body {
+	margin: 				0;
+}
+nav {
+	background-color: 		#f6f9f9;
+	padding: 				25px 100px;
+}
+
+/*call to action section*/
+.cta {
+	text-align: 			center;
+	background-image: 		url(../img/bg1.png);
+	background-size: 		100%;
+	background-repeat: 		no-repeat;
+	height: 				800px;
+}
+.cta h1 {
+	color:					#ffffff;
+	font-size: 				120px;
+	font-weight: 			700;
+	line-height: 			47px;
+	text-align: 			center;
+	margin-top: 			0;
+	padding-top: 			225px;
+	margin-bottom: 			60px;
+}
+.cta hr {
+	border-color: 			#15a4fa;
+	width: 					50%;
+	margin-left: 			25%;
+}
+.cta p {
+	color: 					#ffffff;
+	font-size: 				20px;
+	font-weight: 			400;
+	line-height: 			47px;
+	text-align: 			center; 
+}
+.cta button {
+	background-color: 		transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-top: 			1px solid #15a4fa;
+	border-left: 			1px solid #15a4fa;
+	border-radius: 			2px;
+	padding: 				10px 15px;
+	color: 					#fff;
+	cursor: 				pointer;
+}
+.cta a{
+	position: 				relative;
+	top: 					100px;
+	color: 					#fff;
+}
+
+/*info section*/
+.info {
+	background-color: 	#f6f9f9;
+	padding: 			50px;
+	text-align: 		center;
+}
+.info h2 {
+	color:				#2d3950;
+	font-size: 			40px;
+	font-weight: 		400;
+}
+.info p {
+	width: 				74%;
+	margin: 			0 auto;
+
+	color: 				#999999;
+	font-weight: 		400;
+	line-height: 		32px; /* Approximation due to font substitution */	
+}
+/*features section*/
+.features {
+	padding-left:13%;
+}
+.features .box {
+	display: inline-block;
+    width: 23%;
+    padding:10px;
+    text-align: center;
+    margin: 5% 1%;
+    font-weight: 400;
+}
+.features .iconBox{
+	background: linear-gradient(to right,  #1e5799 0%,#207cca 50%,#2989d8 50%,#7db9e8 100%);
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+.iconBox i {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 25px;
+	color: #fff;
+	font-size: 40px;
+}
+.fa-mobile {
+	font-size: 55px;
+}	
+.fa-paper-plane-o {
+	padding-top: 30px;
+}
+.fa-bullhorn {
+	font-size: 50px;
+}
+.box h4 {
+	color:  #2d3950;
+	font-size: 22px;
+	margin-bottom: 3%;
+}
+.box p {
+	color:  #999999;
+	font-size: 15px; 
+	font-weight: 400;
+	line-height: 22px; 
+
+}
+/*work section*/
+
+.work {
+	background-color: 	#f6f9f9;
+	text-align: 		center;
+	font-weight: 		400;
+	padding: 			50px 0;
+}
+.work h2 {
+	color: 				#2d3950;
+	font-size: 			41px;
+	margin: 			0;
+}
+.work p {
+	color: 				#909090;
+	font-size: 			15px;
+	line-height: 		23px;
+}
+.work .box {
+	display: 			inline-block;
+	width: 				25%;
+	padding: 			10px;
+	text-align: 		center;
+	margin: 			2% 1% 0%;
+	font-weight: 		400;
+}
+.work img {
+	background-color: 	red;
+	width: 				100%;
+	height: 			100%;
+}
+
+/*contact section*/
+.contact {
+	background-image: 	url(../img/bg2.png);
+	height: 			500px;
+	background-position: 50%;
+	padding: 			100px;
+	text-align: 		center;
+}
+.contact h2 {
+	color: 				#ffffff;
+	font-size: 			41px; /* Approximation due to font substitution */
+	font-weight: 		400;
+	margin: 			7% 0 0;
+}
+.contact p {
+	color: 				#999999;
+	font-size: 			15px;
+	font-weight: 		400;
+	line-height: 		23px;
+}
+form > input,
+form > textarea {
+	margin: 			1% auto;
+	display: 			block;
+	width: 				30%;
+	background-color: 	transparent;
+	padding: 			10px;
+	font-size: 			16px;
+	border-radius: 		2px;
+	border: 			1px solid #f6f9f9;
+	color: 				#fff;
+}
+form textarea {
+	margin: 			0 auto;
+}
+form div {
+	width: 				40%;
+	margin: 			0 auto;
+}
+form div span {
+	position: 			relative;
+	right: 				40px;
+	top: 				25px;
+	color: 				#fff;
+	font-size: 			16px;
+	font-weight: 		400;
+}
+form div input {
+	border-radius: 		25%;
+}
+form div button {
+	position: 			relative;
+	left: 				35px;
+	top: 				25px;
+	background-color: 	transparent;
+	border: 			1px solid #15a4fa;
+	border-radius: 		2px;
+	padding: 			10px 25px;
+	color: 				#fff;
+	cursor: 			pointer;
+}
+
+/*footer*/
+
+footer{
+	background-color: 	#f6f9f9;
+	padding: 			10px;
+	height: 			50px;
+	padding-left: 		50px;
+}
+footer p {
+	display: 			inline-block;
+	float: 				left;
+	position: 			relative;
+	left: 				75px;
+}
+.socialMedia {
+	display: 			inline-block;
+	float: 				right;
+	position: 			relative;
+	right: 				200px;
+	top: 				17px;
+}
+.socialMedia a {
+	border-radius: 		2px;
+	background-color: 	#15a4fa;
+	padding: 			7px;
+	color: 				white;
+	text-decoration: 	none;
+	margin:				5px;
+}
+.socialMedia a:first-child {
+	padding 7px 9px;
+}
+@media (max-width: 1320px) {
+	.cta {
+		width: 100%;
+		/*height: 600px;*/
+	}
+	.fa-2x {
+		display: none;
+	}
+	.features {
+		padding: 0;
+		text-align: center;
+	}
+}
+@media (max-width: 1150px) {
+	.features .box {
+		display: block;
+		width: unset;
+	}
+	.features .box:first-child {
+		float: left;
+	}
+	.features .box:nth-child(2) {
+		float: right;
+	}
+	.features .box:nth-child(3) {
+		clear: both;
+	}
+}
+@media (max-width: 1100px) {
+	.cta {
+		height: unset;
+	}
+	.cta h1 {
+		padding-top: 190px;
+	}
+	.contact {
+		padding: 0;
+	}
+	form > input, form > textarea {
+		width: 50%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.features .box {
+		display: block;
+		width: unset;
+		width: 40%;
+	}
+	.features .box:nth-child(3) {
+		margin: 5px auto;
+	}
+}
+@media (max-width: 900px) {
+	.cta h1 {
+		padding-top: 125px;
+	}
+}
+@media (max-width: 850px) {
+	nav {
+		padding: 15px 50px;
+	}
+} 
+@media (max-width: 800px) {
+	.contact {
+		height: 400px;
+	}
+}
+@media (max-width: 750px) {
+	.cta h1 {
+		padding-top: 80px;
+	}
+}
+@media (max-width: 700px) {
+	form div span {
+		position: static;
+
+	}
+	form div button {
+		position: static;
+		display: block;
+		margin: 10px auto;
+	}
+}
+@media (max-width: 650px) {
+	.cta h1 {
+		padding-top: 80px;
+		font-size: 90px;
+		margin-bottom: 27px;
+	}
+	.cta p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	footer p {
+		float: none;
+		text-align: center;
+		display: block;
+		position: static;
+	}
+	.socialMedia {
+		position: static;
+		float: none;
+		display: block;
+		text-align: center;
+    	margin-top: 10px;
+	}
+	nav {
+		padding: 5px 20px;
+	}
+	nav img {
+		width: 30%;
+	}
+
+}
+@media (max-width: 500px) {
+	.cta h1 {
+		padding-top: 50px;
+		line-height: 30px;
+		font-size: 70px;
+		margin-bottom: 27px;
+	}
+	.cta p {
+		font-size: 10px;
+		line-height: 10px;
+	}
+	.features .box h4 {
+		font-size: 16px;
+	}
+	.features .box p {
+		font-size: 12px;
+		line-height: unset;
+	}
+	.info {
+		padding: 0;
+	}
+	.info p {
+		width: unset;
+	}
+	form > input, form > textarea {
+		width: 70%;
+	}
+}
+@media (max-width: 450px) {
+	.features .box i {
+		color: #207cca ;
+	}
+	.features .iconBox {
+		background: none;
+	}
+	nav img {
+		width: 30%;
+	}
+}
+@media (max-width: 390px) {
+	.cta h1 {
+		padding-top: 50px;
+		line-height: 30px;
+		font-size: 50px;
+		margin-bottom: 11px;
+	}
+	.cta p {
+		font-size: 10px;
+		line-height: 10px;
+	}
+	.cta button {
+		border: 1px solid #15a4fa;
+	}
+	.info h2 {
+		font-size: 34px;
+	}
+	.work h2 {
+		font-size: 34px;
+	}
+}
+@media (max-width: 370px) {
+	.cta h1 {
+		padding-top: 30px;
+	}
+}
+@media (max-width: 330px) {
+	.cta h1 {
+		padding-top: 20px;
+	}
+	.cta button {
+		border: 1px solid #15a4fa;
+		padding: 5px;
+	}
+	.info h2 {
+		font-size: 25px;
+	}
+	.work h2 {
+		font-size: 25px;
+}
+
+/*=====Media Q.=======*/
+@media (max-width: 1100px) {
+	.service {
+		background-image: url(../img/service.png);
+		background-position: -311px;
+	}
+	.serviceWrapper {
+		margin: 0 auto;
+	}
+}
+@media (max-width: 966px) {
+	.service {
+		background-position: -392px;
+	}
+}
+@media (max-width: 940px) {
+	.service {
+		background-image: none;
+	}
+	.serviceWrapper {
+		margin: 0;
+}
+@media (max-width: 711px) {
+	.about h3 {
+		font-size: 1em;
+	}
+	.serviceWrapper {
+    	width: 90%;
+	}
+	header {
+		padding-top: 7%;
+		background-size: 100% 87%;
+		height: 430px;
+	}
+	header h1 {
+		font-size: 61px;
+	}
+	header h2 {
+		font-size: 25px;
+	}
+	.about p {
+		width: 90%;
+	}
+	.contact p {
+		width: 80%;
+	}
+	/*.contact br:nth-child(2) {
+		display: none;*/
+	}
+	.contact label {
+		float: left;
+	}
+}
+@media (max-width: 610px) {
+	nav > ul > li {
+		padding: 0px 7px;
+		font-size: 12px;	
+	}
+	.aboutBox, .aboutBox:last-child {
+		float: none;
+		width: unset;
+		border-right: 1px solid #02908B;
+		border-left: 1px solid #02908B;
+	}
+	.contactForm input, 
+	.contactForm textarea {
+		float: right;
+	}
+	.contactForm 
+}
