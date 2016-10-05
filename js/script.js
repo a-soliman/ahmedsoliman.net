@@ -258,6 +258,11 @@ function parallax() {
    });
 
 
+   // live validating for the contacts
+
+   var contactField = $("#contactForm").find("input, textarea")
+
+   console.log(contactField)
 });
 
 
