@@ -257,12 +257,20 @@ function parallax() {
       return false;
    });
 
+   var nameInput= $('#contactForm #contactName')
 
-   // live validating for the contacts
+   nameInput.blur(function() {
+    var value = $(this).val()
+    if(value.length > 3) {
+      console.log("big")
+      nameInput.css("border", "1px solid white")
+    } else {
+      console.log("small")
+      nameInput.css("border", "1px solid red")
+    }
+   })
+ 
 
-   var contactField = $("#contactForm").find("input, textarea")
-
-   console.log(contactField)
 });
 
 
